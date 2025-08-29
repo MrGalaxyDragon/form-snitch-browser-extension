@@ -13,6 +13,7 @@
     "copy-assets": "node copy-assets.cjs"
   },
   "devDependencies": {
+    "dotenv": "^17.2.1",
     "esbuild": "^0.25.9",
     "typescript": "^5.9.2"
   }
